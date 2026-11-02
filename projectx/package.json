@@ -1,0 +1,35 @@
+{
+  "name": "expressbackend",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Express backend for Project X",
+  "license": "MIT",
+  "author": "Juho Asuintupa",
+  "type": "module",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "node backend/index.js",
+    "frontend": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "vite": "^8.3.0"
+  }
+}

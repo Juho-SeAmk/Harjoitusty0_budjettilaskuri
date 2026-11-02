@@ -1,0 +1,40 @@
+body {
+  text-align: left;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.color-picker {
+  margin-bottom: 16px;
+}
+
+.color-picker input {
+  width: 40px;
+  height: 28px;
+  padding: 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  margin-bottom: 8px;
+}
+
+.form-row input,
+.form-row select {
+  width: 200px;
+}
+
+li button {
+  margin-left: 8px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
